@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<title>Trivia Game</title>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- CSS -->
+
+</head>
+<body>
+
+<!-- Title -->
+<div class="container">
+	<div class="jumbotron">
+	<div class="row" id="title">
+		<h1>Trivia Game</h1>
+		
+	</div>
+<!-- Instructions -->
+	<div class="row" id="instructions">
+		<p>Press Start to begin. You'll have 4 minutes to answer as many questions as you can.</p>
+	
+	</div>
+<!-- Timer -->
+	<div class="row">
+		<button type="button" class="btn btn-success" id="start">Start</button>
+		<div>
+			<h2 id="display">
+				0
+				<span id="mins">1</span>
+				<span>:</span>
+				<span id="tens">0</span>
+				<span id="secs">0</span>
+
+			</h2>
+		</div>
+		<div id="time-left">time left</div>
+		
+	</div>
+	<div class="row" id="trivia">
+<!-- Question -->
+<!-- Answer -->
+
+	</div>
+		<div id="choices1">a</div>
+		<div id="choices2">b</div>
+		<div id="choices3">c</div>
+	</div>
+</div>
+<!-- jQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- javascript -->
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>
